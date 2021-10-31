@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_WINFORM_QUANLYSINHVIEN.ADDNEWCONTACT" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QABAAgAEAWEAABAAAACASAiGAEAAAAAAAEAQAAEAAAA=</HashCode>
+      <FileName>CONTACT\ADDNEWCONTACT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.CONTACT">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAQAAAAAEAACAAAAAAAIQIAAAAQA=</HashCode>
+      <FileName>CONTACT\CONTACT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.EDITCONTACT" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAABAEAaEAABAAAACASAACAEAAAAAAAEAQAAAAAAA=</HashCode>
+      <FileName>CONTACT\EDITCONTACT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.SELECTCONTACT" Collapsed="true">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAQAgCAgAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>CONTACT\SELECTCONTACT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.SHOW_FULL_LIST" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAACAAABAAAACABAwCgiAAAAAEAEAAAQAAACA=</HashCode>
+      <FileName>CONTACT\SHOWFULLLIST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.AddCourse" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IABAAEAAASAAwBQAAACAAAACIAAAAAAAIAAAAAAAABA=</HashCode>
+      <FileName>COURSE\AddCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.COURSE">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABABAICAAAAAAAAAAAAAEAAAAgAIAAAAAAAAAAIA=</HashCode>
+      <FileName>COURSE\COURSE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.EditCourseForm" Collapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAoAAAACAAhBAIAACAAAACAAAEAABAAQAAAAAAIBA=</HashCode>
+      <FileName>COURSE\EditCourseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.ManageCourseForm" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQIAggCAQLAAhAQAAACABICWggAQAEAADAAIQAUAYIA=</HashCode>
+      <FileName>COURSE\ManageCourseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.PrintCourseForm" Collapsed="true">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgCAIIAgADAIgACAAACAAAACEAABACACAAAQAIAgACQ=</HashCode>
+      <FileName>COURSE\PrintCourseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.RemoveCourseForm" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAAAAQAACAAAACAAQAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>COURSE\RemoveCourseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.GlobalUserId" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlobalUserId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.GROUP">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAEIEAAAAAAAAIAJAAAAAA=</HashCode>
+      <FileName>GROUP\GROUP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.HUMANFORM" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cQAAEhAAALACABAAEACQAACGCggEAAAAACAUAUEAAAE=</HashCode>
+      <FileName>HUMANFORM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.LOGINFORM" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgkIwkABASAACBAgAACAAQACAAAAAgBAAGAAwCBAAAA=</HashCode>
+      <FileName>LoginForm\LOGINFORM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.MainForm" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CYBgIIgBAHoAEAAgAGCARABCAgAAKIBoUAAEEApAIRQ=</HashCode>
+      <FileName>Main\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.MY_DB" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAQAAAAAQAAAAAAAAABAAAAA=</HashCode>
+      <FileName>MY_DB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.Program" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.REGISTERFORM" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAQAQAAGAAABAAAACQSAACAEAAAABAACAAAAAAAAA=</HashCode>
+      <FileName>REGISTERFORM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.RESULT" Collapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAACAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RESULT\RESULT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.ResultForm">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>MgDIAgAAACACABAAIAKAAAACEEAIACAAAAQQIAAAAAA=</HashCode>
+      <FileName>RESULT\ResultForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.StaticResultForm" Collapsed="true">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAABAAAACIAAICAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RESULT\StaticResultForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.AddScoreForm" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAEAAAACAAgEAAAgCMgAAqAAQAAAAAAAACACIBAAA=</HashCode>
+      <FileName>SCORE\AddScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.AvgScoreByCourse" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAAAAAAACIAAACAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>SCORE\AvgScoreByCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.ManageCoursesForm" Collapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JACAAQAAECAAgEAggoCMgCArAAQAAAAAABQSAAARAAA=</HashCode>
+      <FileName>SCORE\ManageCoursesForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.PrintScoreForm" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgCAAAAAACAAAQIAAACIAAACEAAgACIAAAAQAAAABAA=</HashCode>
+      <FileName>SCORE\PrintScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.RemoveScoreForm" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABAAAAACAEgEAAQACIAAAGAIgoAAAAAEAQAAAAAAA=</HashCode>
+      <FileName>SCORE\RemoveScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.SCORE">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAEAIAQQAAAAAABAAAQACA=</HashCode>
+      <FileName>SCORE\SCORE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.AddStudentForm" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJBAAkAFAWAIABACAACECACCAEAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>STUDENT\AddStudentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.ManageForm" Collapsed="true">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>MpBBAgAFAvAaAFQCAACECAKGCkgEAAAAQAAAIIEYCEM=</HashCode>
+      <FileName>STUDENT\ManageForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.Print" Collapsed="true">
+    <Position X="2.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AiCAAEAcgjAZAFSDAECEAACCWgAEACAAACBRgsAQAEU=</HashCode>
+      <FileName>STUDENT\Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.StaticsForm" Collapsed="true">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAQBCAAAAAAIACBAAACAAACAAFAhIIAAiAAACA=</HashCode>
+      <FileName>STUDENT\StaticsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.STUDENT">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAIAAAAgAAAEAAAAAAAEoEAAAAQAAAA=</HashCode>
+      <FileName>STUDENT\STUDENT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.StudentListForm" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAABAIAjAQAEQAAACAAAACCAgEAAAAAAAEAIAQAEE=</HashCode>
+      <FileName>STUDENT\StudentListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.UpdateDeleteStudentForm" Collapsed="true">
+    <Position X="2.5" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJBAAAAFAPAIAVACAACEKAAGAEAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>STUDENT\UpdateDeleteStudentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.USER">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAACAAAAAAAEAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>USER.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_WINFORM_QUANLYSINHVIEN.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAEAAAAAQAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

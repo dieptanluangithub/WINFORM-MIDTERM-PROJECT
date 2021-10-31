@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49F0D107-B6D5-49B6-BE16-D3E14B116BFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_WINFORM_QUANLYSINHVIEN</RootNamespace>
+    <AssemblyName>[WINFORM]QUANLYSINHVIEN</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CONTACT\ADDNEWCONTACT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONTACT\ADDNEWCONTACT.Designer.cs">
+      <DependentUpon>ADDNEWCONTACT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTACT\CONTACT.cs" />
+    <Compile Include="DB_LoginDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CONTACT\EDITCONTACT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONTACT\EDITCONTACT.Designer.cs">
+      <DependentUpon>EDITCONTACT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalUserId.cs" />
+    <Compile Include="GROUP\GROUP.cs" />
+    <Compile Include="HUMANFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HUMANFORM.Designer.cs">
+      <DependentUpon>HUMANFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTERFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REGISTERFORM.Designer.cs">
+      <DependentUpon>REGISTERFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RESULT\RESULT.cs" />
+    <Compile Include="RESULT\ResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RESULT\ResultForm.Designer.cs">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCORE\AvgScoreByCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCORE\AvgScoreByCourse.Designer.cs">
+      <DependentUpon>AvgScoreByCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCORE\ManageCoursesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCORE\ManageCoursesForm.Designer.cs">
+      <DependentUpon>ManageCoursesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCORE\PrintScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCORE\PrintScoreForm.Designer.cs">
+      <DependentUpon>PrintScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCORE\RemoveScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCORE\RemoveScoreForm.Designer.cs">
+      <DependentUpon>RemoveScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCORE\AddScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCORE\AddScoreForm.Designer.cs">
+      <DependentUpon>AddScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COURSE\AddCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COURSE\AddCourse.Designer.cs">
+      <DependentUpon>AddCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COURSE\COURSE.cs" />
+    <Compile Include="COURSE\EditCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COURSE\EditCourseForm.Designer.cs">
+      <DependentUpon>EditCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COURSE\PrintCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COURSE\PrintCourseForm.Designer.cs">
+      <DependentUpon>PrintCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="COURSE\ManageCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COURSE\ManageCourseForm.Designer.cs">
+      <DependentUpon>ManageCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="COURSE\RemoveCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COURSE\RemoveCourseForm.Designer.cs">
+      <DependentUpon>RemoveCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SCORE\SCORE.cs" />
+    <Compile Include="CONTACT\SELECTCONTACT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONTACT\SELECTCONTACT.Designer.cs">
+      <DependentUpon>SELECTCONTACT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTACT\SHOWFULLLIST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONTACT\SHOWFULLLIST.Designer.cs">
+      <DependentUpon>SHOWFULLLIST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RESULT\StaticResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RESULT\StaticResultForm.Designer.cs">
+      <DependentUpon>StaticResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT\StaticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT\StaticsForm.Designer.cs">
+      <DependentUpon>StaticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT\AddStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT\AddStudentForm.Designer.cs">
+      <DependentUpon>AddStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LoginDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_LoginDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm\LOGINFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm\LOGINFORM.Designer.cs">
+      <DependentUpon>LOGINFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT\ManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT\ManageForm.Designer.cs">
+      <DependentUpon>ManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MY_DB.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="STUDENT\Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT\Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT\STUDENT.cs" />
+    <Compile Include="STUDENT\StudentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT\StudentListForm.Designer.cs">
+      <DependentUpon>StudentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT\UpdateDeleteStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT\UpdateDeleteStudentForm.Designer.cs">
+      <DependentUpon>UpdateDeleteStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USER.cs" />
+    <EmbeddedResource Include="CONTACT\ADDNEWCONTACT.resx">
+      <DependentUpon>ADDNEWCONTACT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTACT\EDITCONTACT.resx">
+      <DependentUpon>EDITCONTACT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HUMANFORM.resx">
+      <DependentUpon>HUMANFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REGISTERFORM.resx">
+      <DependentUpon>REGISTERFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESULT\ResultForm.resx">
+      <DependentUpon>ResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCORE\AvgScoreByCourse.resx">
+      <DependentUpon>AvgScoreByCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCORE\ManageCoursesForm.resx">
+      <DependentUpon>ManageCoursesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCORE\PrintScoreForm.resx">
+      <DependentUpon>PrintScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCORE\RemoveScoreForm.resx">
+      <DependentUpon>RemoveScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCORE\AddScoreForm.resx">
+      <DependentUpon>AddScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COURSE\AddCourse.resx">
+      <DependentUpon>AddCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COURSE\PrintCourseForm.resx">
+      <DependentUpon>PrintCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COURSE\RemoveCourseForm.resx">
+      <DependentUpon>RemoveCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COURSE\EditCourseForm.resx">
+      <DependentUpon>EditCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COURSE\ManageCourseForm.resx">
+      <DependentUpon>ManageCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTACT\SELECTCONTACT.resx">
+      <DependentUpon>SELECTCONTACT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTACT\SHOWFULLLIST.resx">
+      <DependentUpon>SHOWFULLLIST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESULT\StaticResultForm.resx">
+      <DependentUpon>StaticResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT\StaticsForm.resx">
+      <DependentUpon>StaticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT\AddStudentForm.resx">
+      <DependentUpon>AddStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm\LOGINFORM.resx">
+      <DependentUpon>LOGINFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT\ManageForm.resx">
+      <DependentUpon>ManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT\Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT\StudentListForm.resx">
+      <DependentUpon>StudentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT\UpdateDeleteStudentForm.resx">
+      <DependentUpon>UpdateDeleteStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DB_LoginDataSet.xsc">
+      <DependentUpon>DB_LoginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet.xss">
+      <DependentUpon>DB_LoginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet11.xsc">
+      <DependentUpon>DB_LoginDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet11.xss">
+      <DependentUpon>DB_LoginDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet2.xsc">
+      <DependentUpon>DB_LoginDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet2.xss">
+      <DependentUpon>DB_LoginDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet3.xsc">
+      <DependentUpon>DB_LoginDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet3.xss">
+      <DependentUpon>DB_LoginDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet4.xsc">
+      <DependentUpon>DB_LoginDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet4.xss">
+      <DependentUpon>DB_LoginDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet5.xsc">
+      <DependentUpon>DB_LoginDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet5.xss">
+      <DependentUpon>DB_LoginDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet6.xsc">
+      <DependentUpon>DB_LoginDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet6.xss">
+      <DependentUpon>DB_LoginDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet7.xsc">
+      <DependentUpon>DB_LoginDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet7.xss">
+      <DependentUpon>DB_LoginDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet8.xsc">
+      <DependentUpon>DB_LoginDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet8.xss">
+      <DependentUpon>DB_LoginDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet9.xsc">
+      <DependentUpon>DB_LoginDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="DB_LoginDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_LoginDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_LoginDataSet9.xss">
+      <DependentUpon>DB_LoginDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-gradient-background-image-backgroundovalsimplesimplecreativebackground-image-image_61414.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
